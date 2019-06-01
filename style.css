@@ -1,0 +1,98 @@
+html, body{
+    background-color: bisque;
+    height: 100%;
+}
+.topnav{
+    background-color: #d70000;
+    overflow: hidden;
+}
+.topnav a{
+    /* display: block; */
+    float: right;
+    color: #f2f2f2;
+    /* text-align: center */
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover{
+    background-color: #f7b906;
+    color: #000000;
+}
+.topnav a.active{
+    background-color: #f7b906;
+    color:white;
+}
+div.hero-image{
+    background-image: url(../img 2/hands.jpg);
+    height: 90%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+div.hero-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: brown;
+}
+div .hero-text h1{
+    font-size: 3em;
+
+}
+/* .rotate{
+    transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+} */
+div .hero-text a button{
+    color: #f2f2f2;
+    /* margin-top: 30px; */
+    border-color: #d70000;
+    padding: 10px;
+    background: #000000;
+    border-radius: 20px;
+}
+.demobox{
+    background-color: rgba(226, 165, 95, 0.5); border-radius: 30px;
+}
+.description {
+    max-width: 600px;
+    text-align: center;
+    margin: auto
+}
+.description p i{
+    text-transform: capitalize;
+}
+.column{
+    float: left;
+    width: 33.33%;
+}
+.column img{
+    width: 90%;
+    height: auto;
+}
+.row{
+    text-align: center;
+    padding-bottom: 30px; 
+}
+.row::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+footer{
+    background-color: rgba(82,42,37, 0.877);
+    text-align: center;
+    margin-top:20px;
+    padding: 20px;
+}
+footer p {
+    color: rgba(0, 255, 13, 0.459);
+}
+/* div .description h3 p{
+    max-width: 600px;
+    text-align: center;
+    margin: auto */
